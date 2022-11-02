@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan</title>
+    <link rel="stylesheet" href="/css/stylecontent.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="left-nav">
+                <h2><a href="./index.html">Darshan</a></h2>
+            </div>
+            <div class="right-nav">
+                <ul class="navbar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#aboutme">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <img src="images/moon.png" alt="night mode" id="icon">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <!-- About section -->
+        <div class="about" id="aboutme">
+            <h3>About Me</h3>
+            <p>I'm a front-end developer certified by meta. I currently focused on front end tecnologies and trying to
+                keep myself updated.
+                One thing I love about front-end web development is working on css which increases the user experience.
+            </p>
+            <h4>Resume: </h4>
+            <a href="www.google.com">download</a>
+        </div>
+
+        <!-- slider -->
+        <div class="container" id="projects">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <h3>Projects</h3>
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide pic1"></div>
+                    <div class="swiper-slide pic2"></div>
+                    <div class="swiper-slide pic3"></div>
+                    <div class="swiper-slide pic4"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <!-- Get in touch section -->
+        <div class="title">
+            <h3>Get in Touch</h3>
+        </div>
+        <div class="box">
+            <div class="contactme" id="contact">
+                <div class="contact info">
+                    <h3>Contact Info</h3>
+                    <div class="infoBox">
+                        <div>
+                            <span>
+                                <ion-icon name="location-outline"></ion-icon>
+                            </span>
+                            <p>Plot no. 7, ward no. 2, Saoner, Dist. Nagpur, Maharashtra, India</p>
+                        </div>
+                        <div>
+                            <span>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span>
+                            <a href="darshanswankhede@gmail.com">darshanswankhede@gmail.com</a>
+                        </div>
+                        <div>
+                            <span>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span>
+                            <a href="tel:+919730858608">+91 9730858608</a>
+                        </div>
+                        <!-- Social media links -->
+                        <div class="sci">
+                            <li><a href="https://www.linkedin.com/in/darshanwankhede/" target="_blank">
+                                    <ion-icon name="logo-linkedin"></ion-icon>Linkedin
+                                </a></li>
+                            <li><a href="https://github.com/darshansw" target="_blank">
+                                    <ion-icon name="logo-github"></ion-icon>Github
+                                </a></li>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-contact">
+                <h3>Send Message</h3>
+                <form>
+                    <div class="row">
+                        <div class="input-group">
+                            <input type="text" id="name" required>
+                            <label for="name"><i class="fas fa-user"></i>Your Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="number" required>
+                            <label for="name"><i class="fas fa-phone-square-alt"></i> Phone No.</label>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" id="email" required>
+                        <label for="email"><i class="fas fa-envelope"></i>Email Id</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" id="message" rows="8" required></textarea>
+                        <label for="message"><i class="fas fa-comments"></i>Your Message</label>
+                    </div>
+                    <a href="#" class="btn color-01">
+                        <span><i class="fas fa-paper-plane"></i>Submit</span>
+                    </a>
+                </form>
+            </div>
+            <div class="contact map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3715.3702989515837!2d78.93483547889372!3d21.37531945804212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4e798f52aae7b%3A0xbd868bbf9deef0f!2sEquitas%20Small%20Finance%20Bank!5e0!3m2!1sen!2sin!4v1666677086264!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">Copyright&copy; www.darshanswankhede.com </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/javascript/myscriptcontent.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
