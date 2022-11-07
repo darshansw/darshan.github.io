@@ -5,7 +5,7 @@
     margin: 0px;
     padding: 0px;
     border: 0;
-    background: var(--primary-color);
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -110,9 +110,19 @@ nav {
 }
 /* About section */
 .about{
-    margin-top: 75px;
+    margin-top: 66px;
     padding: 20px;
 }
+/* .about::before{
+    content: "";
+    background: url(./images/day.jpg)  transparent no-repeat bottom center  / cover;
+    position:absolute ;
+    height: 800px ;
+    width: 100% ;
+    top:0px ;
+    left:0px ; 
+    z-index: -1 ;
+} */
 .about h3{
     text-align: center;
     font-size: 2.4rem;
@@ -147,22 +157,22 @@ nav {
 }
 
 .pic1 {
-    background: url('/images/swiggy.png');
+    background: url("./images/swiggy.png");
     background-size: cover;
 }
 
 .pic2 {
-    background: url('/images/food.png');
+    background: url("./images/food.png");
     background-size: cover;
 }
 
 .pic3 {
-    background: url('/images/gym.png');
+    background: url("./images/gym.png");
     background-size: cover;
 }
 
 .pic4 {
-    background: url('/images/trinasour.png');
+    background: url("./images/trinasour.png");
     background-size: cover;
 }
 
@@ -180,7 +190,6 @@ nav {
 
 .swiper-slide {
     background-position: top;
-
 }
 
 .swiper-slide:hover {
