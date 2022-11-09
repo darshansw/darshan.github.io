@@ -113,16 +113,7 @@ nav {
     margin-top: 66px;
     padding: 20px;
 }
-/* .about::before{
-    content: "";
-    background: url(./images/day.jpg)  transparent no-repeat bottom center  / cover;
-    position:absolute ;
-    height: 800px ;
-    width: 100% ;
-    top:0px ;
-    left:0px ; 
-    z-index: -1 ;
-} */
+
 .about h3{
     text-align: center;
     font-size: 2.4rem;
@@ -198,6 +189,23 @@ nav {
     border: 3px solid red;
 }
 
+.swiper-slide a{
+    background:transparent;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style:oblique;
+    text-align: center;
+    justify-content: right;
+    display: flex;
+    text-shadow: 2px 2px 5px rgb(2, 1, 1);
+    color:white;
+}
+.swiper-slide a:hover{
+    font-weight: 500;
+    text-shadow: 0px 0px 5px rgb(96, 80, 80);
+    color: rgb(241, 16, 16);
+}
 .container h3 {
     font-size: 2.4rem;
     font-weight: 500;
